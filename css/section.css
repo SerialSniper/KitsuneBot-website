@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+section {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section p {
+    width: 60vw;
+}
+
+section.light {
+    background-color: var(--grey);
+}
+
+svg.light {
+    fill: var(--grey);
+}
+
+section > div {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.button {
+    display: table;
+    margin: 0 auto;
+    background-color: var(--grey);
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 3px 7px 3px var(--darkest-black);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover {
+    transform: translate(0, -5px);
+    box-shadow: 0 3px 15px 7px var(--darkest-black);
+    transition: 0.5s;
+}
