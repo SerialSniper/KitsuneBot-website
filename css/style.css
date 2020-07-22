@@ -23,7 +23,7 @@ html, body {
 
 body {
     margin-top: 53px;
-    /*overflow-x: hidden;*/
+    padding: 30vh 0;
 }
 
 a {

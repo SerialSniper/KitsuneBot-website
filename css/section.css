@@ -20,8 +20,8 @@ svg.light {
     fill: var(--grey);
 }
 
-section > div {
+.section-content {
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    padding: 20px;
 }
