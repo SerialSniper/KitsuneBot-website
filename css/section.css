@@ -25,3 +25,25 @@ svg.light {
     flex-direction: row;
     padding: 20px;
 }
+
+.v-separator {
+    display: none;
+}
+
+@media(max-width: 1000px) {
+    section p {
+        width: auto;
+    }
+
+    .section-content {
+        flex-direction: column;
+    }
+
+    .v-separator {
+        display: block;
+    }
+
+    .h-separator {
+        display: none;
+    }
+}
