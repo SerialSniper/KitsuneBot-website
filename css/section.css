@@ -26,6 +26,10 @@ svg.light {
     padding: 20px;
 }
 
+.main-section-content {
+    z-index: 1;
+}
+
 .v-separator {
     display: none;
 }

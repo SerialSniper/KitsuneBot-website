@@ -23,7 +23,6 @@ html, body {
 
 body {
     margin-top: 53px;
-    padding: 30vh 0;
 }
 
 a {
@@ -62,4 +61,33 @@ svg {
 
 .v-separator {
     height: 20px;
+}
+
+.splash-logo {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    bottom: -100px;
+}
+
+.splash-logo img {
+    width: inherit;
+}
+
+.splash-gradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0, var(--black) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+@media(max-width: 1000px) {
+    .splash-logo {
+        display: none;
+    }
+
+    body {
+        padding-top: 30vh;
+    }
 }

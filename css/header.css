@@ -13,8 +13,7 @@ header {
 
 header.rainbow {
     border-top: solid 3px transparent;
-    border-image: linear-gradient(to right, #AA0000 0%, #AAAA00 25%, 
-                                #00AA00 50%, #0000AA 75%, #AA00AA 100%);
+    border-image: linear-gradient(to right, #AA0000 0%, #AAAA00 25%, #00AA00 50%, #0000AA 75%, #AA00AA 100%);
     border-image-slice: 1;
 }
 
