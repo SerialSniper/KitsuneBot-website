@@ -23,6 +23,8 @@ html, body {
 
 body {
     margin-top: 53px;
+    position: relative;
+    overflow-x: hidden;
 }
 
 a {
@@ -82,8 +84,28 @@ svg {
     background: linear-gradient(0, var(--black) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
+.wheatley-easteregg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.wheatley-easteregg img {
+    position: relative;
+    bottom: -100px;
+    right: -100px;
+    width: inherit;
+}
+
 @media(max-width: 1000px) {
     .splash-logo {
+        display: none;
+    }
+
+    .wheatley-easteregg {
         display: none;
     }
 
