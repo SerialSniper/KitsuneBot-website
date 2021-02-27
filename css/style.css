@@ -15,6 +15,8 @@
     --accent: #AA6E1D;
     --accent-light: #C59C65;
     --accent-lighter: #D7BB96;
+    
+    --black-dec: 30, 30, 30;
 }
 
 html, body {
@@ -89,10 +91,10 @@ svg {
 
 .splash-gradient {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0, var(--black) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0, var(--black) 0%, rgba(var(--black-dec), .5) 30%, rgba(0, 0, 0, 0) 100%);
 }
 
 .wheatley-easteregg {
