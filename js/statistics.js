@@ -7,7 +7,6 @@ function update() {
 
         let uptime = data["uptime"];
         let totalSeconds = (uptime / 1000);
-        let days = Math.floor(totalSeconds / 86400);
         totalSeconds %= 86400;
         let hours = Math.floor(totalSeconds / 3600);
         totalSeconds %= 3600;
@@ -27,7 +26,7 @@ function update() {
         $("#uptime").text(text);
     });
 
-    setTimeout(update, 1000);
+    setTimeout(update, 10000);
 }
 
 $(document).ready(function() {
