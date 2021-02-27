@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.used {
+    border: none;
+}
+
+.used-inner img {
+    height: 80px;
+}
+
+@media(max-width: 1000px) {
+    .used {
+        width: 100%;
+    }
+
+    .used-inner img {
+        height: auto;
+        width: 80vw;
+        margin: 20px 0;
+    }
+}

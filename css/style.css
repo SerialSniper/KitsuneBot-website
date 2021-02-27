@@ -4,13 +4,17 @@
 @import url('footer.css');
 @import url('button.css');
 @import url('section.css');
+@import url('statistics.css');
+@import url('used.css');
 
 :root {
     --darkest-black: #101010;
     --black: #1E1E1E;
     --light-black: #252525;
     --grey: #383838;
-    --accent: #aa6e1d;
+    --accent: #AA6E1D;
+    --accent-light: #C59C65;
+    --accent-lighter: #D7BB96;
 }
 
 html, body {
@@ -35,10 +39,17 @@ a {
 h1, h2, h3, h4, h5 {
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 h1 {
     font-size: 30px;
+    color: var(--accent-light);
+}
+
+h3 {
+    font-size: 25px;
+    color: var(--accent-lighter);
 }
 
 p {
@@ -102,7 +113,9 @@ svg {
 
 @media(max-width: 1000px) {
     .splash-logo {
-        display: none;
+        width: 200px;
+        height: 200px;
+        bottom: -50px;
     }
 
     .wheatley-easteregg {
@@ -110,6 +123,6 @@ svg {
     }
 
     body {
-        padding-top: 30vh;
+        padding-top: 10vh;
     }
 }

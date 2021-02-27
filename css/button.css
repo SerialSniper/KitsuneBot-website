@@ -11,6 +11,8 @@
     box-shadow: 0 3px 7px 3px var(--darkest-black);
     cursor: pointer;
     transition: 0.5s;
+    text-align: center;
+    color: var(--accent);
 }
 
 .button:hover {
