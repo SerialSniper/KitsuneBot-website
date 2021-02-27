@@ -1,5 +1,5 @@
 function update() {
-    $.getJSON("http://api.kitsunebot.tk/", function(data) {
+    $.getJSON("https://serialsniper-kitsunebot.herokuapp.com/", function(data) {
         $("#developer").text(data["developer"]);
         $("#version").text(data["version"]);
         $("#birthday").text(data["birthday"]);
