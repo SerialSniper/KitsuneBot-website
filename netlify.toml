@@ -3,3 +3,8 @@
   to = "/res/:splat"
   status = 301
   headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/example"
+  to = "https://example.com/"
+  status = 301
