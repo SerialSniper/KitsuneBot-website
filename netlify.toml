@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "cdn.kitsunebot.tk"
-  to = "kitsunebot.tk/src"
+  from = "https://cdn.kitsunebot.tk/*"
+  to = "https://kitsunebot.tk/res/:splat"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
