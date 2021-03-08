@@ -7,4 +7,4 @@
 [[redirects]]
   from = "/example"
   to = "https://example.com/"
-  status = 301
+  status = 200
