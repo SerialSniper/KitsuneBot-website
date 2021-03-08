@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "https://cdn.kitsunebot.tk/*"
-  to = "/res/:splat"
-  status = 301
+  from = "https://cdn.kitsunebot.tk/"
+  to = "https://kitsunebot.tk/res/"
+  status = 200
