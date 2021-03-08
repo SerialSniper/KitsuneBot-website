@@ -1,5 +1,6 @@
 # https://pixabay.com/users/nishan_b-5341667
 
 https://cdn.kitsunebot.tk/* https://kitsunebot.tk/res/cdn/:splat 200!
-https://kitsunebot.tk/discord https://discord.gg/m3E2gjw 200!
-https://kitsunebot.tk/invite https://discord.com/api/oauth2/authorize?client_id=704461310347444265&permissions=8&scope=bot 200!
+/discord https://discord.gg/m3E2gjw 200!
+/invite https://discord.com/api/oauth2/authorize?client_id=704461310347444265&permissions=8&scope=bot 200!
+/index.html / 200
