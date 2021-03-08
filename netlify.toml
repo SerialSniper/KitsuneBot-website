@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "cdn.kitsunebot.tk"
+  to = "kitsunebot.tk/src"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
