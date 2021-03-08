@@ -1,5 +1,5 @@
 [[redirects]]
   from = "https://cdn.kitsunebot.tk/*"
-  to = "https://kitsunebot.tk/res/:splat"
+  to = "/res/:splat"
   status = 301
   headers = {X-From = "Netlify"}
