@@ -1,7 +1,10 @@
 # https://pixabay.com/users/nishan_b-5341667
 
-https://cdn.kitsunebot.tk/ /403 403!
-https://cdn.kitsunebot.tk/* https://kitsunebot.tk/res/cdn/:splat 200!
+https://media.kitsunebot.tk/ /403 403!
+https://media.kitsunebot.tk/* https://kitsunebot.tk/res/media/:splat 200!
+
+https://beta.kitsunebot.tk/ /403 403!
+https://beta.kitsunebot.tk/* https://kitsunebot.tk/beta/:splat 200!
 
 /discord https://discord.gg/m3E2gjw 301!
 /invite https://discord.com/api/oauth2/authorize?client_id=704461310347444265&permissions=8&scope=bot 301!
@@ -12,3 +15,5 @@ https://cdn.kitsunebot.tk/* https://kitsunebot.tk/res/cdn/:splat 200!
 /index.html / 301!
 /404.html /404 301!
 /403.html /403 301!
+
+https://beta.kitsunebot.tk/purple/index.html / 301!

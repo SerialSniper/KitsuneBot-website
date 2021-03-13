@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+:root {
+    --darkest-black: #101010;
+    --black: #1E1E1E;
+    --light-black: #252525;
+    --grey: #383838;
+    --accent: #8216C9;
+    --accent-light: #912CD9;
+    --accent-lighter: #B46EE5;
+    
+    --black-dec: 30, 30, 30;
+}
