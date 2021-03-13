@@ -16,4 +16,4 @@ https://beta.kitsunebot.tk/* https://kitsunebot.tk/beta/:splat 200!
 /404.html /404 301!
 /403.html /403 301!
 
-https://beta.kitsunebot.tk/purple/index.html / 301!
+https://beta.kitsunebot.tk/purple/index.html https://beta.kitsunebot.tk/purple/ 301!
