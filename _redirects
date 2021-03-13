@@ -3,6 +3,7 @@
 https://media.kitsunebot.tk/ /403 403!
 https://media.kitsunebot.tk/* https://kitsunebot.tk/res/media/:splat 200!
 
+https://beta.kitsunebot.tk/purple/index.html https://beta.kitsunebot.tk/purple/ 301!
 https://beta.kitsunebot.tk/ /403 403!
 https://beta.kitsunebot.tk/* https://kitsunebot.tk/beta/:splat 200!
 
@@ -15,5 +16,3 @@ https://beta.kitsunebot.tk/* https://kitsunebot.tk/beta/:splat 200!
 /index.html / 301!
 /404.html /404 301!
 /403.html /403 301!
-
-https://beta.kitsunebot.tk/purple/index.html https://beta.kitsunebot.tk/purple/ 301!
