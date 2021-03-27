@@ -17,6 +17,6 @@
 
 .button:hover {
     transform: translate(0, -5px);
-    box-shadow: 0 3px 15px 7px var(--darkest-black);
+    box-shadow: 0 3px 15px 7px var(--accent-darkest);
     transition: 0.5s;
 }
