@@ -18,6 +18,8 @@
     --accent-darkest: #241C12;
     
     --black-dec: 30, 30, 30;
+    
+    color-scheme: dark;
 }
 
 html, body {
