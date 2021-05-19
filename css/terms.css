@@ -22,3 +22,17 @@ h1 {
 ul {
     list-style-type: none;
 }
+
+@media(max-width: 1000px) {
+    body {
+        padding-top: 0;
+    }
+
+    .terms-inner {
+        width: 80%;
+    }
+
+    .terms-main-title {
+        font-size: 40px;
+    }
+}
