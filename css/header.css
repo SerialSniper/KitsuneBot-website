@@ -17,6 +17,12 @@ header.rainbow {
     border-image-slice: 1;
 }
 
+header.tricolor {
+    border-top: solid 3px transparent;
+    border-image: linear-gradient(to right, #008B66 0%, #008B66 30%, #FFF 33%, #FFF 66%, #C7293C 70%);
+    border-image-slice: 1;
+}
+
 header a {
     display: flex;
     align-items: center;
